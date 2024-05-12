@@ -9,7 +9,7 @@ import {
   Stack,
 } from "@chakra-ui/react";
 import {
-  NY_TIMES,
+  WORD_GAMES,
   TRIVIA,
   PUZZLES,
 } from "src/components/Games/utils/constants";
@@ -28,7 +28,7 @@ const Games = () => {
       <Card>
         <CardBody>
           <Stack divider={<StackDivider />}>
-            {NY_TIMES.map((gameItem) => (
+            {WORD_GAMES.map((gameItem) => (
               <GameItem {...gameItem} />
             ))}
           </Stack>

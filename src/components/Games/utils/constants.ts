@@ -18,11 +18,22 @@ const STRANDS = {
   url: "https://www.nytimes.com/games/strands",
   description: "Themed crossword puzzle.",
 };
+const PINPOINT = {
+  gameName: "Pinpoint",
+  url: "https://www.linkedin.com/games/pinpoint/",
+  description: "Guess the category",
+};
 
 const DAILY_DOZEN = {
   gameName: "Daily Dozen",
   url: "https://dailydozentrivia.com/",
   description: "Barstool Trivia Game.",
+};
+
+const CROSSCLIMB = {
+  gameName: "Crossclimb",
+  url: "https://www.linkedin.com/games/crossclimb/",
+  description: "Unlock a trivia ladder.",
 };
 
 const QUEENS = {
@@ -31,6 +42,6 @@ const QUEENS = {
   description: "Find the queen for each area.",
 };
 
-export const NY_TIMES = [CONNECTIONS, MINI, WORLDLE, STRANDS];
-export const TRIVIA = [DAILY_DOZEN]
+export const WORD_GAMES = [CONNECTIONS, MINI, WORLDLE, STRANDS, PINPOINT];
+export const TRIVIA = [DAILY_DOZEN, CROSSCLIMB];
 export const PUZZLES = [QUEENS]
