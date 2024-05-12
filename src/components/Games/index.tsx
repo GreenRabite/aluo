@@ -17,9 +17,9 @@ import GameItem from "src/components/Games/GameItem";
 
 const Games = () => {
   return (
-    <Box w="100vw" h="100vh" p={"4em"} backgroundColor={colors.gray[25]}>
+    <Box p={"4em"}>
       <Heading as="h1" size="2xl" mb="20px">
-        🎮 Daily Games 🎮
+        🎮 Daily Games
       </Heading>
       {/* Word Games Section */}
       <Heading as="h2" size="l" mb="10px">
