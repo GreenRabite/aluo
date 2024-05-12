@@ -2,10 +2,9 @@ import React from "react";
 import colors from "src/themes/colors";
 import {
   Heading,
-  Link,
-  Text,
-  TableCaption,
-  Card, CardHeader, CardBody, CardFooter, StackDivider,
+  Card, 
+  CardBody,
+  StackDivider,
   Box,
   Stack
 } from "@chakra-ui/react";

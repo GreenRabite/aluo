@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, Text, Link, Tooltip } from "@chakra-ui/react";
+import { Box, Heading, Link, Tooltip } from "@chakra-ui/react";
 import colors from "src/themes/colors";
 
 const GameItem = (gameCard) => {
