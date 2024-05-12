@@ -25,5 +25,12 @@ const DAILY_DOZEN = {
   description: "Barstool Trivia Game.",
 };
 
+const QUEENS = {
+  gameName: "Queens",
+  url: "https://www.linkedin.com/games/queens/",
+  description: "Find the queen for each area.",
+};
+
 export const NY_TIMES = [CONNECTIONS, MINI, WORLDLE, STRANDS];
 export const TRIVIA = [DAILY_DOZEN]
+export const PUZZLES = [QUEENS]

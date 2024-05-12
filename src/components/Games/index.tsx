@@ -2,13 +2,17 @@ import React from "react";
 import colors from "src/themes/colors";
 import {
   Heading,
-  Card, 
+  Card,
   CardBody,
   StackDivider,
   Box,
-  Stack
+  Stack,
 } from "@chakra-ui/react";
-import {NY_TIMES, TRIVIA} from "src/components/Games/utils/constants";
+import {
+  NY_TIMES,
+  TRIVIA,
+  PUZZLES,
+} from "src/components/Games/utils/constants";
 import GameItem from "src/components/Games/GameItem";
 
 const Games = () => {
@@ -38,6 +42,19 @@ const Games = () => {
         <CardBody>
           <Stack divider={<StackDivider />}>
             {TRIVIA.map((gameItem) => (
+              <GameItem {...gameItem} />
+            ))}
+          </Stack>
+        </CardBody>
+      </Card>
+      {/* Puzzle Section */}
+      <Heading as="h2" size="l" my="10px">
+        Puzzles
+      </Heading>
+      <Card>
+        <CardBody>
+          <Stack divider={<StackDivider />}>
+            {PUZZLES.map((gameItem) => (
               <GameItem {...gameItem} />
             ))}
           </Stack>
