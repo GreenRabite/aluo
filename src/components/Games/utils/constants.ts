@@ -19,4 +19,11 @@ const STRANDS = {
   description: "Themed crossword puzzle.",
 };
 
+const DAILY_DOZEN = {
+  gameName: "Daily Dozen",
+  url: "https://dailydozentrivia.com/",
+  description: "Barstool Trivia Game.",
+};
+
 export const NY_TIMES = [CONNECTIONS, MINI, WORLDLE, STRANDS];
+export const TRIVIA = [DAILY_DOZEN]
