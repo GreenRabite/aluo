@@ -1,5 +1,4 @@
 import React from "react";
-import colors from "src/themes/colors";
 import {
   Heading,
   Card,

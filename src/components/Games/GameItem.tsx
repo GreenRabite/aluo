@@ -2,7 +2,13 @@ import React from "react";
 import { Box, Heading, Link, Tooltip } from "@chakra-ui/react";
 import colors from "src/themes/colors";
 
-const GameItem = (gameCard) => {
+type GameCard = {
+  gameName: string;
+  url: string;
+  description: string;
+}
+
+const GameItem = (gameCard: GameCard) => {
   const { gameName, url, description } = gameCard;
   return (
     <Tooltip label={description} aria-label="A tooltip" placement="auto-start">
