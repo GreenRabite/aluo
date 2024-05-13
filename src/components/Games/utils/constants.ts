@@ -31,6 +31,11 @@ const WAFFLES = {
   url: "https://wafflegame.net/daily",
   description: "Solve the word waffle.",
 };
+const DELUXE_WAFFLES = {
+  gameName: "Deluxe Waffles",
+  url: "https://wafflegame.net/deluxe",
+  description: "Solve the larger word waffle.",
+};
 
 /**
  * TRIVIA GAMES
