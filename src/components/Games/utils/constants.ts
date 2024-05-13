@@ -78,7 +78,15 @@ const BASEBALL = {
   description: "Baseball grid game.",
 };
 
-export const WORD_GAMES = [CONNECTIONS, MINI, WORLDLE, STRANDS, PINPOINT, WAFFLES];
+export const WORD_GAMES = [
+  CONNECTIONS,
+  MINI,
+  WORLDLE,
+  STRANDS,
+  PINPOINT,
+  WAFFLES,
+  DELUXE_WAFFLES,
+];
 export const TRIVIA = [DAILY_DOZEN, CROSSCLIMB];
 export const PUZZLES = [QUEENS]
 export const GRIDS = [BASKETBALL, BASEBALL];
