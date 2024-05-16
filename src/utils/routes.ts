@@ -1,7 +1,7 @@
 export const baseRoute = () => {
-  return ''
+  return '/'
 };
 
 export const gamesRoute = () => {
-  return `${baseRoute()}/games`
+  return `${baseRoute()}games`
 }
