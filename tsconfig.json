@@ -28,8 +28,24 @@
       "src/*": ["src/*"]
     },
     "outDir": "dist/src",
-    "jsx": "react"
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "noEmit": true,
+    "incremental": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "strictNullChecks": true
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "./dist/types/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }

@@ -8,6 +8,7 @@ import {
   TRIVIA,
   PUZZLES,
   GRIDS,
+  MUSIC,
 } from "src/components/Games/utils/constants";
 import GameCard from "src/components/Games/GameCard";
 
@@ -21,6 +22,7 @@ const Games = () => {
       <GameCard title="Trivia" gameList={TRIVIA} />
       <GameCard title="Puzzles" gameList={PUZZLES} />
       <GameCard title="Grids" gameList={GRIDS} />
+      <GameCard title="Music Games" gameList={MUSIC} />
     </Box>
   );
 };

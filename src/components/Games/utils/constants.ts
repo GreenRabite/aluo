@@ -78,6 +78,15 @@ const BASEBALL = {
   description: "Baseball grid game.",
 };
 
+/**
+ * MUSIC GAMES
+ */
+const BANDLE = {
+  gameName: "Bandle",
+  url: "https://bandle.app/",
+  description: "Guess the song from the clues.",
+}
+
 export const WORD_GAMES = [
   CONNECTIONS,
   MINI,
@@ -90,3 +99,4 @@ export const WORD_GAMES = [
 export const TRIVIA = [DAILY_DOZEN, CROSSCLIMB];
 export const PUZZLES = [QUEENS]
 export const GRIDS = [BASKETBALL, BASEBALL];
+export const MUSIC = [BANDLE];
