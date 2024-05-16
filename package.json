@@ -18,10 +18,11 @@
   },
   "scripts": {
     "react-start": "react-scripts start",
-    "build": "react-scripts build",
+    "react-build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "start": "next dev"
+    "start": "next dev",
+    "build": "next build"
   },
   "eslintConfig": {
     "extends": [
