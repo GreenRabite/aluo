@@ -13,13 +13,15 @@ import {
   MUSIC,
 } from "src/components/Games/utils/constants";
 import GameCard from "src/components/Games/GameCard";
-import { baseRoute } from "src/utils/routes";
+import { homeRoute } from "src/utils/routes";
 
 const Games = () => {
   return (
     <Box p={"4em"}>
-      <Link href={baseRoute()}>
-        <Button my="1em" colorScheme="teal">Return Home</Button>
+      <Link href={homeRoute()}>
+        <Button my="1em" colorScheme="teal">
+          Return Home
+        </Button>
       </Link>
       <Heading as="h1" size="2xl" mb="20px">
         🎮 Daily Games
