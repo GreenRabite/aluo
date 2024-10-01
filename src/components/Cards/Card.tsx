@@ -1,15 +1,9 @@
 import { useState } from "react";
 
 import {
-  Heading,
   Box,
-  Link,
-  Button,
-  Stack,
   Checkbox,
-  CheckboxGroup,
   Text,
-  Image,
   Tooltip,
 } from "@chakra-ui/react";
 

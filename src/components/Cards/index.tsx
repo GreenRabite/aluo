@@ -1,11 +1,7 @@
 import {
   Heading,
   Box,
-  Link,
-  Button,
   Stack,
-  Checkbox,
-  CheckboxGroup,
   Image,
 } from "@chakra-ui/react";
 
