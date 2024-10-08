@@ -1,10 +1,10 @@
 export const PARALLELS = [
-  { variant: "Base", hover: "", subtitle: "", collected: false },
+  { variant: "Base", hover: "", subtitle: "", collected: true },
   {
     variant: "Refractor",
     hover: "1:3 hobby / 1:1 jumbo / 1:! breaker / 1:4 value / 1:3 monster",
     subtitle: "",
-    collected: false,
+    collected: true,
   },
   {
     variant: "Pink Refractor",
@@ -40,8 +40,8 @@ export const PARALLELS = [
   {
     variant: "Magenta Speckle Refractor",
     hover: "1:102 hobby, 1:31 jumbo, 1:3 breaker, 1:285 value, 1:116 monster",
-    subtitle: "/350",
-    collected: false,
+    subtitle: "185/350",
+    collected: true,
   },
   {
     variant: "Purple Speckle Refractor",
